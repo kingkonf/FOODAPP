@@ -37,6 +37,7 @@ dependencies:
   google_sign_in: ^6.1.0
   firebase_database: ^10.0.14
   provider: ^6.0.5
+  #firebase_analytics: ^8.3.0
 
 
 
@@ -53,6 +54,7 @@ dependency_overrides:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.1
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
