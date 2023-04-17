@@ -1,14 +1,8 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_project2/provider/productProvider.dart';
 import 'package:flutter_project2/utils/helper.dart';
-import 'package:flutter_project2/provider/productProvider.dart';
-import 'package:provider/provider.dart';
-
 import '../const/colors.dart';
-import '../json/items.dart';
 class p extends StatefulWidget {
   static const routeName = "/p";
 
@@ -19,12 +13,6 @@ class p extends StatefulWidget {
 
 class _pState extends State<p> {
 
-  // @override
-  // void initState(){
-  // ProductProvider productProvider = Provider.of(context,listen: false);
-  // productProvider.fetchdosaProductData();
-  //   super.initState();
-  // }
 
   @override
   Widget singleproducts(){

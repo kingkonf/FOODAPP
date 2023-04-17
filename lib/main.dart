@@ -1,6 +1,4 @@
 import 'dart:convert';
-// import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_project2/Screens/loginScreen.dart';
@@ -19,11 +17,8 @@ import 'package:flutter_project2/utils/ProfileInfo.dart';
 import 'package:flutter_project2/Screens/IndividualItem.dart';
 import 'package:flutter_project2/utils/p.dart';
 
-import 'firebase_rand.dart';
 
-void main()  async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+void main() {
   runApp(MyApp());
 }
 
